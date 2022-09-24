@@ -1,0 +1,6 @@
+@use "sass:map";
+@import  '../../varaiables.scss';
+
+.Header {
+    color:map.get($theme-colors, "info");
+}
